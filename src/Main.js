@@ -9,7 +9,7 @@ const Main = () => {
 		<div>
 			<h2>Find {countryToMatch} on the map!</h2>
 			<MapChart setSelectCountry={setSelectCountry} />
-			<p>{selectCountry === countryToMatch ? 'Correct!' : 'Wrong!'}</p>
+			<p>{selectCountry === countryToMatch ? 'Correct' : 'Wrong'}</p>
 		</div>
 	);
 };
